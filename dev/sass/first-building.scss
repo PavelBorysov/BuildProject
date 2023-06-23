@@ -1,0 +1,29 @@
+.stage {
+    fill: transparent;
+    cursor: pointer;
+    stroke: transparent;
+    fill-opacity: 0.5;
+    transition: .3s;
+}
+
+.stage-1,
+.stage-3,
+.stage-5,
+.stage-7,
+.stage-9 {
+    &:hover {
+        fill: #47B73D;
+        stroke: #47B73D;
+    }
+}
+
+.stage-2,
+.stage-4,
+.stage-6,
+.stage-8,
+.stage-10 {
+    &:hover {
+        fill: #E58D35;
+        stroke: #E58D35;
+    }
+}

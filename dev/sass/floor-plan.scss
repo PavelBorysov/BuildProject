@@ -1,0 +1,52 @@
+.flat {
+    &.free {
+        .bg-status {
+            fill: #4eb8d3;
+        }
+        &:hover path {
+            
+            fill: #84d8ff7c;
+            stroke: #000000;
+        }
+    }
+
+    &.action {
+        .bg-status {
+            fill: #80d34e;
+        }
+    }
+
+    &.sold {
+        .bg-status {
+            fill: #d34e4e; 
+        }
+        &:hover path{
+            cursor: no-drop;
+            fill: #c5263b7c;
+            stroke: #000000;
+        }
+    }
+
+    &.booking {
+        .bg-status {
+            fill: #6b68ff;
+        }
+        &:hover path{
+            cursor: no-drop;
+            fill: #6b68ff59;
+            stroke: #000000;
+        }
+    }
+}
+
+.plan {
+    fill: #f0f8ff00;
+    stroke: #ff000000;
+    cursor: pointer;
+    &:hover {
+        fill: #74ff893c;
+        stroke: #42fb5e;
+        stroke-width: 3px;
+    }
+}
+

@@ -50,7 +50,8 @@
 
 
 
-.build-info {
+.build-info,
+.flats-info {
     width: 650px;
     margin: 60px 30px 60px 60px;
     padding: 60px;
@@ -82,12 +83,12 @@
         font-weight: 600;
         min-height: 290px;
     }
-}
-
-.sold {
-    &:hover path{
-        cursor: no-drop;
-        fill: #D26666;
-        stroke: #D26666;
+    .sold {
+        &:hover path{
+            cursor: no-drop;
+            fill: #D26666;
+            stroke: #D26666;
+        }
     }
 }
+
