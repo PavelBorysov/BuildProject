@@ -3,11 +3,7 @@
         .bg-status {
             fill: #4eb8d3;
         }
-        &:hover path {
-            
-            fill: #84d8ff7c;
-            stroke: #000000;
-        }
+        
     }
 
     &.action {
@@ -20,21 +16,12 @@
         .bg-status {
             fill: #d34e4e; 
         }
-        &:hover path{
-            cursor: no-drop;
-            fill: #c5263b7c;
-            stroke: #000000;
-        }
+        
     }
 
     &.booking {
         .bg-status {
             fill: #6b68ff;
-        }
-        &:hover path{
-            cursor: no-drop;
-            fill: #6b68ff59;
-            stroke: #000000;
         }
     }
 }
@@ -50,3 +37,25 @@
     }
 }
 
+.apartment-sold {
+    &:hover {
+        cursor: no-drop;
+        fill: #e2384679;
+        stroke: #e23846;
+    }
+}
+
+.apartment-booking {
+    &:hover {
+        cursor: no-drop;
+        fill: #8b76c279;
+        stroke: #8c76c2;
+    }
+}
+
+.apartment-free {
+    &:hover {
+        fill: #50a0d479;
+        stroke: #509fd4;
+    }
+}
