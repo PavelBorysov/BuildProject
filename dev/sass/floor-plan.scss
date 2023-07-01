@@ -3,7 +3,7 @@
         .bg-status {
             fill: #4eb8d3;
         }
-        
+
     }
 
     &.action {
@@ -14,14 +14,22 @@
 
     &.sold {
         .bg-status {
-            fill: #d34e4e; 
+            fill: #d34e4e;
         }
-        
+
     }
 
     &.booking {
         .bg-status {
             fill: #6b68ff;
+        }
+    }
+
+    &.active {
+        .plan {
+            fill: #bdff6767;
+            stroke: #7bce66;
+            stroke-width: 5px;
         }
     }
 }
@@ -30,6 +38,7 @@
     fill: #f0f8ff00;
     stroke: #ff000000;
     cursor: pointer;
+
     &:hover {
         fill: #74ff893c;
         stroke: #42fb5e;
@@ -57,5 +66,35 @@
     &:hover {
         fill: #50a0d479;
         stroke: #509fd4;
+    }
+}
+
+.floor-plan {
+    max-width: 1440px;
+    margin: 60px auto;
+}
+
+.flat-info {
+    display: flex;
+    justify-content: center;
+    padding: 36px 24px;
+    border-radius: 15px;
+}
+
+.flat-item {
+    padding: 10px 22px;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #fff;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    display: grid;
+
+    b {
+        font-size: 24px;
+        margin-top: auto;
+        padding-top: 10px;
     }
 }
